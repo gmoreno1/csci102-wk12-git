@@ -5,3 +5,9 @@
 def PrintOutput(x):
     print('OUTPUT',x)
     
+def LoadFile(file):
+    f = open(file)
+    contents = f.readlines()
+    print('OUTPUT', contents)
+
+
